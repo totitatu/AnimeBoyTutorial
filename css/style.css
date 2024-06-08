@@ -1,0 +1,164 @@
+#skip{
+	position: absolute;
+	top: -100px;
+}
+#skip:focus{
+	position: static;
+	background-color: yellow;
+}
+header img{
+    width: 96vw;
+    height: 15vh;
+    border-style: solid;
+    border-width: 0.5vw;
+    padding: 0.2vw;
+    margin: 0.3vw;
+    overflow: hidden;
+    object-fit: cover;
+}
+header ul{
+    font-size: 2.1vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display: inline-block;
+
+}
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0.25vw;
+    margin: 0;
+    padding: 2vw;
+    width: 20vw;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #000000;
+}
+.nav-link:visited{
+    display: inline-block;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0.25vw;
+    margin: 0;
+    padding: 2vw;
+    width: 20vw;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #000000;
+}
+#current{
+    color: #1c10ad;
+    background-color: #b2e0a7;
+    border-color: #012c66;
+}
+.nav-link:hover{
+    display: inline-block;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0.4vw;
+    margin: 0;
+    padding: 2vw;
+    width: 19vw;
+    text-align: center;
+    background-color: #7fdfd0;
+    color: #000000;
+}
+.nav-link:focus{
+    display: inline-block;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0.4vw;
+    margin: 0;
+    padding: 2vw;
+    width: 19vw;
+    text-align: center;
+    background-color: #7fdfd0;
+    color: #000000;
+}
+.nav-link:active{
+    display: inline-block;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0.4vw;
+    margin: 0;
+    padding: 2vw;
+    width: 19vw;
+    text-align: center;
+    background-color: #01a087;
+    color: #ffffff;
+    border-color: #a0a0a0;
+}
+h1{
+    display: block;
+    text-align: center;
+    font-family: math;
+    font-size: 6vh;
+    color: #d30000;
+}
+p{
+    display: inline-block;
+    font-family: monospace;
+    font-size: 2vw;
+    color: #a63100;
+}
+#buck_foi{
+	content: url(../img/hair_cover_eye.png);
+	width: 30vw;
+	transition: content 5s, width 5s;
+}
+#buck_foi:hover{
+	content: url(../img/a_lot_of_guys_hce.png);
+	width: 50vw;
+
+}
+#buck_foi:active{
+	width: 70vw;
+	content: url(../img/u_become_hce.png);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 24vw 24vw 24vw 24vw;
+}
+.grid-item{
+	text-align: center;
+	margin: 0px;
+}
+.grid-item img{
+    width: 20vw;
+}
+.grid-item figcaption{
+	text-align: center;
+}
+.grid-item:nth-child(4n+1){
+border-style: dashed;
+    border-width: 5px;
+}
+.grid-item:nth-child(4n+2){
+    border-style: dotted;
+}
+.grid-item:nth-child(4n+3){
+	border-style: double;
+    border-width: 5px;
+    border-radius: 25px;
+}
+.grid-item:nth-child(4n){
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+.flexer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-item{
+}
+.flex-item img{
+	width: 200px;
+}

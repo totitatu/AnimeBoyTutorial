@@ -1,0 +1,5 @@
+#skip{
+	display: block;
+	position: absolute;
+	top: 1000px;
+}
